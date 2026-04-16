@@ -197,4 +197,5 @@ pyrightconfig.json
 .vscode
 outputs
 make_teaser.py
-metrics.csv
+metrics.csv"data/*.ply" 
+"data/nerf_synthetic/" 
