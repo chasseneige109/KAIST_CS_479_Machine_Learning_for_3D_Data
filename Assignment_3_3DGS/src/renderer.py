@@ -266,22 +266,15 @@ class GSRasterizer(object):
 
                 # ========================================================
                 # TODO: Perform alpha blending
-
-                # TODO: Perform alpha blending
                 opacity_tilde = gaussian_weight * tile_opacity.squeeze(-1)[None]  # [P, M]
-
                 trans = torch.cumprod(1.0 - opacity_tilde, dim=-1)
-                trans_cum = torch.cat(
-                    [torch.ones_like(opacity_tilde[:, :1]), trans[:, :-1]], dim=-1
-                )  # [P, M]
+                trans_cum = torch.cat([torch.ones_like(opacity_tilde[:, :1]), trans[:, :-1]], dim=-1)  # P, M
 
-                acc_color = torch.sum(
-                    tile_color[None] * opacity_tilde[..., None] * trans_cum[..., None], dim=1
-                )  # [P, 3]
+                acc_color = torch.sum(tile_color[None] * opacity_tilde[..., None] * trans_cum[..., None], dim=1)  # P, 3
 
-                acc_alpha = torch.sum(opacity_tilde * trans_cum, dim=-1, keepdim=True)  # [P, 1]
+                acc_alpha = torch.sum(opacity_tilde * trans_cum, dim=-1, keepdim=True)  # P, 1
 
-                tile_color = acc_color + (1.0 - acc_alpha) * 1.0  # [P, 3]
+                tile_color = acc_color + (1.0 - acc_alpha) * 1.0  # P, 3
                 # ========================================================
 
                 render_color[h:h+self.tile_size, w:w+self.tile_size] = tile_color.reshape(self.tile_size, self.tile_size, -1)
