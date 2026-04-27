@@ -1,6 +1,5 @@
 # KAIST CS479: Machine Learning for 3D Data
-This repository contains my code implementations and training results  
-for the assignments of **CS479: Machine Learning for 3D Data** (self-studied).
+This repository contains my code implementations and training results for the assignments of **CS479: Machine Learning for 3D Data** (self-studied).
 Instructor: [Minhyuk Sung](https://mhsung.github.io/) @ KAIST, Spring 2025
 
 ## Assignment_2_NeRF - Result Video 
@@ -19,6 +18,7 @@ Instructor: [Minhyuk Sung](https://mhsung.github.io/) @ KAIST, Spring 2025
 </p>
 
 ## 3D_Rendering_Contest - Result Videos 
+Animation with random rotation axis for each apple gaussians
 https://github.com/user-attachments/assets/cd5aca73-3fcb-45f0-a1ea-447d521a2082
 
 ## Assignments
