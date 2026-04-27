@@ -18,13 +18,8 @@ Instructor: [Minhyuk Sung](https://mhsung.github.io/) @ KAIST, Spring 2025
   <img src="https://github.com/user-attachments/assets/4da71396-607c-4e73-8542-44ab99f26816" width="24%" />
 </p>
 
-| Scene | LPIPS ↓ | PSNR ↑ |
-|-------|:-------:|:------:|
-| Chair     | 0.0276 | 27.56 |
-| Lego      | 0.0349 | 26.66 |
-| Materials | 0.0302 | 25.68 |
-| Drums     | 0.0656 | 21.61 |
-| **Average** | **0.0396** | **25.38** |
+## 3D_Rendering_Contest - Result Videos (My shoe) 
+https://github.com/user-attachments/assets/cd5aca73-3fcb-45f0-a1ea-447d521a2082
 
 ## Assignments
 | # | Topic | Folder |
