@@ -19,6 +19,7 @@ Instructor: [Minhyuk Sung](https://mhsung.github.io/) @ KAIST, Spring 2025
 
 ## 3D_Rendering_Contest - Result Videos 
 Animation with random rotation axis for each apple gaussians
+
 https://github.com/user-attachments/assets/cd5aca73-3fcb-45f0-a1ea-447d521a2082
 
 ## Assignments
