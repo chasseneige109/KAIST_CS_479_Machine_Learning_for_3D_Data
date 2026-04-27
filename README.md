@@ -18,7 +18,7 @@ Instructor: [Minhyuk Sung](https://mhsung.github.io/) @ KAIST, Spring 2025
   <img src="https://github.com/user-attachments/assets/4da71396-607c-4e73-8542-44ab99f26816" width="24%" />
 </p>
 
-## 3D_Rendering_Contest - Result Videos (My shoe) 
+## 3D_Rendering_Contest - Result Videos 
 https://github.com/user-attachments/assets/cd5aca73-3fcb-45f0-a1ea-447d521a2082
 
 ## Assignments
